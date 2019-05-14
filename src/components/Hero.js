@@ -4,14 +4,9 @@ import React, { Component } from 'react';
 class Hero extends Component{
 
     render() {
-        const headerBackground = {
-            backgroundImage: "url(img/background-simple.png)",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "left "
-        };
+    
         return(
-            <div style={headerBackground} className="heroContainer">
+            <div className="heroContainer">
                <img className="title" src="img/stallion-logo.png"/>
                <p class="pageTitle">shop</p>
                <div className="meganContainer">
