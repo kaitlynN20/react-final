@@ -24,7 +24,6 @@ class Items extends Component {
                     <img alt="" src= {items.img_src} />
                     <p>{items.item_name} {items.price}</p>
                     </div>
-            
             ))}
             </div>
             </div>
