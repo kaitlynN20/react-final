@@ -8,7 +8,7 @@ class Hero extends Component{
         return(
             <div className="heroContainer">
                <img className="title" src="img/stallion-logo.png"/>
-               <p class="pageTitle">shop</p>
+               <p className="pageTitle">shop</p>
                <div className="meganContainer">
                     <img className="megan-back-left" src="img/megan-yellow.png"/>
                     <img className="megan-center" src="img/megan-yellow.png"/>
