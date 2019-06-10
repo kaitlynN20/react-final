@@ -4,6 +4,7 @@ import items from '../js/items.js';
 import Item from './Item';
 import Inventory from './Inventory';
 import base from '../js/base';
+import Cart from './Cart';
 
 class App extends Component {
     state = {
@@ -42,6 +43,7 @@ class App extends Component {
                 <Item key={key} details={this.state.items[key]} />
             ))}
         </ul>
+        <Cart /> 
         <section className="master">
             <Inventory 
                 updateItem={this.updateItem}
